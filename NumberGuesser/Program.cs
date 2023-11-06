@@ -4,6 +4,10 @@
     {
         static void Main(string[] args)
         {
+            Console.Title = "Number Guesser";
+            Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.White;
             int guesses = 0;
             Random random = new Random();
             int highestNumber = 1001;
