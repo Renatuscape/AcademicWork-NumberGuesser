@@ -16,7 +16,8 @@
             Printer.PrintText($" - [L] My number is lower");
             Printer.PrintText($" - [C] That's my number!");
             Console.Write("\t");
-            string? userInput = Console.ReadLine();
+            string? userInput = Console.ReadKey().KeyChar.ToString();
+            Console.WriteLine();
 
             if (userInput != null)
             {
